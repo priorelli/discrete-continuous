@@ -49,3 +49,15 @@ Note that the function `init_belief` changes the length of the last joint to acc
 Useful trajectories computed during the simulations are stored through the class `Log` in *environment/log.py*.
 
 Note that all the variables are normalized between -1 and 1 to ensure that every contribution to the belief updates has the same magnitude.
+
+## Required libraries
+
+matplotlib==3.8.4
+
+numpy==2.0.1
+
+pyglet==2.0.17
+
+pymunk==6.6.0
+
+seaborn==0.13.2
