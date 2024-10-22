@@ -4,7 +4,7 @@
   <img src="/reference/images/env.png">
 </p>
 
-This is the project related to the paper [Slow but flexible or fast but rigid? Discrete and continuous processes compared](https://www.biorxiv.org/content/10.1101/2023.08.20.554008v2.abstract). It investigates the tradeoff, in active inference, between high-level cognitive planning and low-level motor control regarding multi-step tasks. It compares two models (a hybrid discrete-continuous model and a continuous-only model) on a dynamic pick-and-place operation. The study further explores how discrete actions could lead to continuous attractors, and draws parallelisms with different motor learning phases, aiming to inform future research on bio-inspired task specialization.
+This is the project related to the paper [Slow but flexible or fast but rigid? Discrete and continuous processes compared](https://doi.org/10.1016/j.heliyon.2024.e39129). It investigates the tradeoff, in active inference, between high-level cognitive planning and low-level motor control regarding multi-step tasks. It compares two models (a hybrid discrete-continuous model and a continuous-only model) on a dynamic pick-and-place operation. The study further explores how discrete actions could lead to continuous attractors, and draws parallelisms with different motor learning phases, aiming to inform future research on bio-inspired task specialization.
 
 Video simulations are found [here](https://priorelli.github.io/projects/4_discrete_or_continuous/).
 
