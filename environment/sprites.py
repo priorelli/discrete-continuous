@@ -97,8 +97,8 @@ class Grasp(pyglet.shapes.Circle):
 
 class Link(pyglet.shapes.Rectangle):
     def __init__(self, batch, space, size, pin, v, limit):
-        super().__init__(*(pin.position + v), *size, (0, 100, 200), batch,
-                         group=pyglet.graphics.Group(2))
+        super().__init__(*(pin.position + v), *size, color=(0, 100, 200),
+                         batch=batch, group=pyglet.graphics.Group(2))
         self.body = pymunk.Body()
         self.body.position = pin.position + v
 
@@ -139,8 +139,9 @@ class Link(pyglet.shapes.Rectangle):
 
 class Home(pyglet.shapes.Rectangle):
     def __init__(self, batch, space):
-        super().__init__(*offset, c.home_size, c.home_size, (200, 200, 200),
-                         batch, group=pyglet.graphics.Group(0))
+        super().__init__(*offset, c.home_size, c.home_size,
+                         color=(200, 200, 200), batch=batch,
+                         group=pyglet.graphics.Group(0))
         self.body = pymunk.Body()
         self.body.position = offset
 
